@@ -1,10 +1,16 @@
-// import "./App.css";
-import Login from "./components/lesson/Login";
+import { BrowserRouter } from "react-router-dom";
+import Category from "./components/Category";
+import Search from "./components/Search";
+import Pages from "./pages/Pages";
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <BrowserRouter>
+        <Search />
+        <Category />
+        <Pages />
+      </BrowserRouter>
     </div>
   );
 }
