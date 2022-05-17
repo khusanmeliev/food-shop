@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-crash-course/static/css/main.8a57aa2d.css",
+    "main.js": "/react-crash-course/static/js/main.48839c39.js",
+    "index.html": "/react-crash-course/index.html",
+    "main.8a57aa2d.css.map": "/react-crash-course/static/css/main.8a57aa2d.css.map",
+    "main.48839c39.js.map": "/react-crash-course/static/js/main.48839c39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a57aa2d.css",
+    "static/js/main.48839c39.js"
+  ]
+}
