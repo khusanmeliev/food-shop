@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 function Search() {
@@ -18,7 +17,6 @@ function Search() {
   return (
     <FormStyle onSubmit={handleSubmit}>
       <div>
-        <FaSearch></FaSearch>
         <input type="text" value={input} onChange={handleInput} />
       </div>
     </FormStyle>

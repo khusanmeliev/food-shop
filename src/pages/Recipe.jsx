@@ -45,14 +45,13 @@ function Recipe() {
         >
           Ingredients
         </Button>
-
         {activeTab === "instructions" && (
           <div>
             <h3 dangerouslySetInnerHTML={{ __html: details.summary }}></h3>
             <h3 dangerouslySetInnerHTML={{ __html: details.instructions }}></h3>
           </div>
-        )};
-
+        )}
+        ;
         {activeTab === "ingredients" && (
           <ul>
             {details.extendedIngredients.map((ingredient) => (
@@ -60,11 +59,11 @@ function Recipe() {
             ))}
           </ul>
         )}
-        
       </Info>
     </DetailWrapper>
   );
 }
+
 
 const DetailWrapper = styled.div`
   margin-top: 160px;
